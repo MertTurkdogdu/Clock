@@ -1,0 +1,50 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  color: aliceblue;
+}
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    180deg,
+    hsl(218deg 95% 36%) 0%,
+    hsl(195deg 100% 44%) 71%,
+    hsl(163deg 95% 77%) 100%
+  );
+}
+.time-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10rem;
+  background-color: rgba(0, 0, 0, 0.275);
+  border-radius: 20px;
+  width: 70dvh;
+  height: 30dvh;
+  box-shadow: 1px 1px 30px rgba(255, 255, 255, 0.469);
+}
+.date {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+.date span {
+  font-size: 30px;
+}
+.times span {
+  font-size: 70px;
+  margin: 5px;
+}
+#clockget-ampm{
+  font-size: 20px;
+  text-transform: uppercase;
+}
